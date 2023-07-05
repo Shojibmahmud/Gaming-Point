@@ -2,6 +2,7 @@ import { Grid, GridItem, Show } from "@chakra-ui/react";
 import NavBar from "./components/NavBar";
 import ColorModeSwitch from "./components/ColorModeSwitch";
 import GameGrid from "./components/GameGrid";
+import GenreList from "./components/GenreList";
 
 function App() {
 	return (
@@ -14,7 +15,9 @@ function App() {
 				<NavBar></NavBar>
 			</GridItem>
 			<Show above="lg">
-				<GridItem area="aside">Aside</GridItem>
+				<GridItem area="aside">
+					<GenreList></GenreList>
+				</GridItem>
 			</Show>
 
 			<GridItem area="main">
