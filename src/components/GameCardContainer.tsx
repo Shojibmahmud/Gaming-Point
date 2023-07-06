@@ -7,7 +7,7 @@ interface Poperties {
 
 const GameCardContainer = ({ children }: Poperties) => {
 	return (
-		<Box borderRadius={10} width="250px" overflow="hidden">
+		<Box borderRadius={10} overflow="hidden">
 			{children}
 		</Box>
 	);
